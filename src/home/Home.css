@@ -184,7 +184,7 @@
 }
 
 .testimonial{
-  margin: 100px 50px;
+  margin: 100px 50px 50px;
 }
 
 .testimonial .heading{
@@ -278,6 +278,9 @@
   }
   .advanceFeature{
     margin: 50px 20px;
+  }
+  .testimonial{
+    margin: 100px 20px 50px;
   }
 }
 
