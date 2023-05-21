@@ -14,4 +14,11 @@ window.addEventListener('resize', e => {
   }
 });
 
-export {toggleMenu}
+const hideMenu =()=>{
+  let nav = document.getElementById("nav")
+  nav.classList.remove("navToggle")
+  let menu = document.getElementById("toggleMenu")
+  menu.classList.remove("menuToggle")
+}
+
+export {toggleMenu, hideMenu}

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import {toggleMenu} from "./head"
+import {toggleMenu, hideMenu} from "./head"
 import {NavLink} from "react-router-dom"
 
 function Header() {
@@ -18,10 +18,10 @@ function Header() {
           <h1>EdExcel.Ai</h1>
         </div>
         <nav id='nav'>
-          <NavLink onClick={toggleMenu} style={navStyle} to={"/"}>Home</NavLink>
-          <NavLink onClick={toggleMenu} style={navStyle} to={"/courses"}>Courses</NavLink>
-          <NavLink onClick={toggleMenu} style={navStyle} to={"/about"}>About</NavLink>
-          <NavLink onClick={toggleMenu} style={navStyle} to={"/contact"}>Contact</NavLink>
+          <NavLink onClick={hideMenu} style={navStyle} to={"/"}>Home</NavLink>
+          <NavLink onClick={hideMenu} style={navStyle} to={"/courses"}>Courses</NavLink>
+          <NavLink onClick={hideMenu} style={navStyle} to={"/about"}>About</NavLink>
+          <NavLink onClick={hideMenu} style={navStyle} to={"/contact"}>Contact</NavLink>
         </nav>
         <div className="toggleMenu" id='toggleMenu' onClick={toggleMenu}></div>
       </header>
