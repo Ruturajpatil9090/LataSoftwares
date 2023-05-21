@@ -20,28 +20,28 @@ function Home() {
         <div className='whyUsContain'>
           <div className="singleContain">
             <div className='logoDiv'>
-              <i class="fa-solid fa-hands-holding-child"></i> 
+              <i className="fa-solid fa-hands-holding-child"></i> 
             </div>
             <h3>Better Future</h3>
             <p>Lorem ipsum dolor sit aeius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?</p>
           </div>
           <div className="singleContain">
             <div className='logoDiv'>
-              <i class="fa-solid fa-medal"></i>
+              <i className="fa-solid fa-medal"></i>
             </div>
             <h3>Qualified Trainers</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo a consequuntur sapiente, dolorem veniam architecto vero, eius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?</p>
           </div>
           <div className="singleContain">
             <div className='logoDiv'>
-              <i class="fa-solid fa-user-graduate"></i>
+              <i className="fa-solid fa-user-graduate"></i>
             </div>
             <h3>Internship & Job</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo a consequuntur sapiente, dolorem veniam architecto vero, eius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?</p>
           </div>
           <div className="singleContain">
             <div className='logoDiv'>
-              <i class="fa-solid fa-handshake"></i>
+              <i className="fa-solid fa-handshake"></i>
             </div>
             <h3> 24/7 Great Support</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo a consequuntur sapiente, dolorem veniam architecto vero, eius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?</p>
@@ -58,14 +58,14 @@ function Home() {
           <div className="Points">
               <div className="subPoint">
                 <div className="logo">
-                  <i class="fa-solid fa-earth-asia"></i>
+                  <i className="fa-solid fa-earth-asia"></i>
                 </div>
                 <h3>Learn Anywhere</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos numquam suscipit aut minus veniam itaque.</p>
               </div>
               <div className="subPoint">
                 <div className="logo">
-                  <i class="fa-solid fa-user-tie"></i>
+                  <i className="fa-solid fa-user-tie"></i>
                 </div>
                 <h3>Expert Teacher</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos numquam suscipit aut minus veniam itaque.</p>
@@ -91,11 +91,11 @@ function Home() {
                 <p>Full Stack Java Developer</p>
               </div>
               <div>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star "></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star "></i>
               </div>
             </div>
           </div>
@@ -107,11 +107,11 @@ function Home() {
                 <p>Full Stack Java Developer</p>
               </div>
               <div>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star "></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star "></i>
               </div>
             </div>
           </div>
@@ -123,11 +123,11 @@ function Home() {
                 <p>Full Stack Java Developer</p>
               </div>
               <div>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star "></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star "></i>
               </div>
             </div>
           </div>
@@ -139,11 +139,11 @@ function Home() {
                 <p>Full Stack Java Developer</p>
               </div>
               <div>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star "></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star "></i>
               </div>
             </div>
           </div>
@@ -155,11 +155,11 @@ function Home() {
                 <p>Full Stack Java Developer</p>
               </div>
               <div>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star "></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star "></i>
               </div>
             </div>
           </div>
@@ -171,11 +171,11 @@ function Home() {
                 <p>Full Stack Java Developer</p>
               </div>
               <div>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star like"></i>
-                <i class="fa-solid fa-star "></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star like"></i>
+                <i className="fa-solid fa-star "></i>
               </div>
             </div>
           </div>

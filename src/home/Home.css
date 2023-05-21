@@ -211,7 +211,7 @@
   display: flex;
   gap: 50px;
   overflow-x: scroll;
-  padding: 20px;
+  padding: 10px;
 }
 
 .testimonial .students::-webkit-scrollbar{

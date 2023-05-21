@@ -18,10 +18,10 @@ function Header() {
           <h1>EdExcel.Ai</h1>
         </div>
         <nav id='nav'>
-          <NavLink style={navStyle} to={"/"}>Home</NavLink>
-          <NavLink style={navStyle} to={"/courses"}>Courses</NavLink>
-          <NavLink style={navStyle} to={"/about"}>About</NavLink>
-          <NavLink style={navStyle} to={"/contact"}>Contact</NavLink>
+          <NavLink onClick={toggleMenu} style={navStyle} to={"/"}>Home</NavLink>
+          <NavLink onClick={toggleMenu} style={navStyle} to={"/courses"}>Courses</NavLink>
+          <NavLink onClick={toggleMenu} style={navStyle} to={"/about"}>About</NavLink>
+          <NavLink onClick={toggleMenu} style={navStyle} to={"/contact"}>Contact</NavLink>
         </nav>
         <div className="toggleMenu" id='toggleMenu' onClick={toggleMenu}></div>
       </header>
