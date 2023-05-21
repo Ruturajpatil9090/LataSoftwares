@@ -1,0 +1,154 @@
+.contactBanner img{
+  width: 100%;
+}
+
+.contactDiv
+{
+  margin: 50px;
+}
+
+.inTouch{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  color: var(--customDarkBlue);
+}
+
+.inTouch h1{
+  font-weight: bolder;
+  color: var(--customDarkBlue);
+  margin: 20px 0;
+}
+
+.inTouch .spanDiv{
+  display: inline-block;
+  width: 100px;
+  border: 1px solid rgb(255,102,59);
+}
+
+.formAndInfo{
+  display: flex;
+  gap: 50px;
+}
+
+.formAndInfo .formDiv{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.formDiv form{
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(248,249,219);
+  width: 500px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.formDiv .input{
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--customDarkBlue);
+  width: 100%;
+  margin: 15px 0;
+  padding: 0 10px ;
+}
+
+.formDiv .input:hover{
+  border-bottom: 2px solid rgb(255,102,59);
+}
+
+.formDiv .selectCourse{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid var(--customDarkBlue);
+  margin: 10px 0;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.formDiv .selectCourse:hover{
+  border: 2px solid rgb(255,102,59);
+}
+
+.formDiv button{
+  border: none;
+  padding: 10px 20px;
+  background: linear-gradient(to right, rgb(238,61,15), rgb(249,182,0));
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+
+.formDiv button:hover{
+  background: linear-gradient(to left, rgb(238,61,15),  rgb(249,182,0));
+}
+
+.formAndInfo .infoDiv{
+  width: 60%;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding-left: 50px;
+}
+
+.infoDiv .singleInfo{
+  width: 280px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  color: gray;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.infoDiv .singleInfo i{
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to right, rgb(239,60,15), rgb(249,177,1)) !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.infoDiv .singleInfo h4{
+  margin: 10px 0;
+  color: var(--customDarkBlue);
+}
+
+
+@media (max-width:1250px){
+  .formAndInfo{
+    flex-direction: column;
+  }
+  .formAndInfo .formDiv{
+    width: 100%;
+  }
+  .formDiv form{
+    width: 700px;
+  }
+  .formAndInfo .infoDiv{
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 850px){
+  .contactDiv
+  {
+    margin: 50px 20px;
+  }
+}
