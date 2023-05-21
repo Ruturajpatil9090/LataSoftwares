@@ -1,0 +1,109 @@
+header{
+  background-color: white;
+  box-shadow: rgb(197, 197, 197) 0px 5px 5px 1px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 9999 !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  height: 70px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  width: 50px;
+  margin-right: 10px;
+}
+
+.logo h1{
+  color: var(--customDarkBlue);
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+}
+
+.navToggle{
+  display: flex;
+  position: fixed;
+  top: 80px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  right: 20px;
+  background-color: rgba(72, 126, 176,1.0);
+  box-shadow: rgb(30, 63, 94) 0px 2px 5px 2px;
+}
+.navToggle *{
+  color: white !important;
+}
+.navToggle *:hover{
+  border-bottom: 3px solid white !important;
+}
+
+header nav *{
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(33, 98, 114);
+}
+
+header nav *:hover{
+  color: var(--customDarkBlue) !important;
+  border-bottom: 3px solid var(--customDarkBlue) !important;
+}
+
+.toggleMenu{
+  width: 50px;
+  height: 50px;
+  background-image: url('menu.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  display: none;
+}
+
+.menuToggle{
+  background-image: url('menuClose.svg') !important;
+}
+
+
+@media (max-width:800px){
+  header{
+    padding: 10px 20px;
+  }
+  header nav{
+    display: none;
+  }
+  header nav *{
+    margin-left: 0;
+  }
+  .toggleMenu {
+    display: block;
+  }
+}
+
+@media (max-width:425px){
+
+  .logo h1{
+    font-size: 25px;
+  }
+
+  .toggleMenu{
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,307 @@
+.homeDiv{
+  height: calc(100vh - 80px);
+  background-image: url("./banner_bg.png");
+  background-repeat: no-repeat;
+  background-size: 68%;
+  background-position: right top;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.frameContent h5{
+  color: gray;
+  text-align: justify;
+}
+
+.frameContent h1{
+  color: var(--customDarkBlue);
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.frameImg img{
+  width: 600px;
+  animation: homeGifAnimation 4s infinite;
+}
+
+@keyframes homeGifAnimation {
+  50%{
+    transform: translateY(-20px);
+  }
+  0%, 100%{
+    transform: translateY(20px);
+  }
+}
+
+.whyUs{
+  text-align: center;
+  font-size: 18px;
+}
+
+.whyUs h1{
+  font-size: 40px;
+  color: var(--customDarkBlue);
+  font-weight: bold;
+}
+
+.whyUs h5{
+  color: gray;
+}
+
+.whyUsContain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.whyUs .singleContain{
+  width: 300px;
+  min-width: 300px;
+  padding: 20px;
+  transition: all 0.6s ease 0s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--customDarkBlue);
+  cursor: pointer;
+  margin: 15px;
+}
+.whyUs .singleContain .logoDiv{
+  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(240, 244, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  transition: all 0.6s ease 0s;
+}
+
+.whyUs .singleContain:hover{
+  box-shadow:rgb(255,102,59)  0px 1px 4px;
+  transform: translateY(-10px);
+}
+
+.whyUs .singleContain:hover .logoDiv{
+  color: white;
+  background: linear-gradient(to right, rgb(239,60,15), rgb(249,177,1)) !important
+}
+
+.whyUs .singleContain p{
+  color: gray;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.advanceFeature{
+  display: flex;
+  margin: 50px;
+  gap: 50px;
+}
+
+.advanceFeature .heading h5{
+  color: gray;
+}
+
+.advanceFeature .heading .headSpan{
+  display: inline-block;
+  width: 60px;
+  border: 1px solid rgb(255,102,59);
+  margin-right: 10px;
+}
+
+.advanceFeature .heading h1{
+  color: var(--customDarkBlue);
+  font-weight: bolder;
+  margin: 30px 0;
+}
+
+.advanceFeature .heading p{
+  color: gray;
+  text-align: justify;
+}
+
+.advanceFeature .ImgDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(to right, rgb(239,60,15), rgb(249,177,1)) !important;
+  border-top-left-radius:40% ;
+  border-top-right-radius: 60%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 40%;
+
+}
+
+.advanceFeature .ImgDiv img{
+  width: 100%;
+  max-width: 500px;
+}
+
+.advanceFeature .Points{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.advanceFeature .Points .subPoint{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+}
+
+.advanceFeature .Points .subPoint .logo{
+  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: white;
+  background: linear-gradient(to right, rgb(239,60,15), rgb(249,177,1)) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.advanceFeature .Points .subPoint h3{
+  color: var(--customDarkBlue);
+  margin-bottom: 20px;
+}
+
+.advanceFeature .Points .subPoint p{
+  color: gray;
+  text-align: center;
+}
+
+.testimonial{
+  margin: 100px 50px;
+}
+
+.testimonial .heading{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: gray;
+  margin-bottom: 50px;
+}
+
+.testimonial .heading h1{
+  font-weight: bolder;
+  color: var(--customDarkBlue);
+  margin: 20px 0;
+}
+
+.testimonial .heading .spanDiv{
+  display: inline-block;
+  width: 100px;
+  border: 1px solid rgb(255,102,59);
+}
+
+.testimonial .students{
+  display: flex;
+  gap: 50px;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.testimonial .students::-webkit-scrollbar{
+  display: none;
+}
+
+.testimonial .individualStudent{
+  width: 300px;
+  height: 350px;
+  min-width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 10px;
+  position: relative;
+}
+
+.testimonial .individualStudent p{
+  color: gray;
+}
+
+.testimonial .individualStudent h5{
+  color: var(--customDarkBlue);
+}
+
+.testimonial .nameAndPosition{
+  position: absolute;
+  bottom: 10px;
+  left: 20px
+}
+
+.testimonial .nameAndPosition .fa-star{
+  margin-right: 5px;
+  color: gray;
+}
+
+.testimonial .nameAndPosition .fa-star.like{
+  color: rgb(242,98,11);
+}
+
+
+
+
+@media (max-width: 1150px){
+  .frameImg img{
+    width: 400px;
+  }
+  .advanceFeature{
+    flex-direction: column;
+  }
+}
+@media (max-width: 850px){
+  .homeDiv {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    padding: 0 20px;
+  }
+  .advanceFeature .ImgDiv img{
+    max-width: 400px;
+  }
+  .advanceFeature .Points{
+    flex-direction: column;
+    align-items: center;
+  }
+  .advanceFeature{
+    margin: 50px 20px;
+  }
+}
+
+@media (max-width: 425px){
+  .frameImg img{
+    width: 300px;
+  }
+
+  .frameContent h1{
+    font-size: 30px;
+  }
+
+  .frameContent h5{
+    font-size: 15px;
+  }
+
+  .advanceFeature .ImgDiv img{
+    max-width: 300px;
+  }
+
+  .advanceFeature .heading h5{
+    font-size: 15px;
+  }
+  .advanceFeature .heading h1{
+    font-size: 25px;
+  }
+}
