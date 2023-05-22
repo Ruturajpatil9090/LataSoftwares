@@ -19,29 +19,33 @@ function Contact() {
             <input required="" type="text" className="input" placeholder='Mobile'/>
             <select name="" className='selectCourse'>
               <option value="" selected disabled>select course</option>
-              <option value="">html</option>
-              <option value="">java</option>
-              <option value="">python</option>
+              <option value="">Full Stack Java Developer</option>
+              <option value="">Full Stack Python Developer</option>
+              <option value="">Full Stack Web Developer</option>
+              <option value="">Software Testing</option>
+              <option value="">AI and Data Science</option>
+              <option value="">Business Intelligence & Data Analyst</option>
+              <option value="">Other</option>
             </select>
             <input required="" type="text" className="input" placeholder='Any Query'/>
-            <button>SEND MASSAGE</button>
+            <button>SEND MESSAGE</button>
             </form>
           </div>
           <div className="infoDiv">
             <div className="singleInfo">
               <i className="fa-solid fa-phone-volume"></i>
               <h4>Call Us On</h4>
-              <p>9845997456</p>
+              <a href="tel:7058919412">9845997456</a>
             </div>
             <div className="singleInfo">
               <i className="fa-solid fa-envelope"></i>
               <h4>Email Us</h4>
-              <p>omkar@gmail.com</p>
+              <a href="mailto: satheomkar143@gmail.com" target='_blank'>omkar@gmail.com</a>
             </div>
             <div className="singleInfo">
               <i className="fa-brands fa-whatsapp"></i>
               <h4>Whatsapp Us</h4>
-              <p>9845698521</p>
+              <a href="https://api.whatsapp.com/send?phone=7058919412&text=Hi There." target='_blank'>9845698521</a>
             </div>
             <div className="singleInfo">
               <i className="fa-solid fa-location-dot"></i>

@@ -1,0 +1,65 @@
+.coursesBanner img{
+  width: 100%;
+  max-height: 600px;
+}
+
+.courses{
+  margin: 50px;
+}
+
+.courses .heading{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: gray;
+  margin-bottom: 50px;
+}
+
+.courses .heading h1{
+  font-weight: bolder;
+  color: var(--customDarkBlue);
+  margin: 20px 0;
+}
+
+.courses .heading .spanDiv{
+  display: inline-block;
+  width: 100px;
+  border: 1px solid rgb(255,102,59);
+}
+.coursesDiv{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.individualCourse{
+  width: 350px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 10px;
+  text-align: center;
+  color: gray;
+  border-radius: 10px;
+}
+
+.individualCourse img{
+  width: 100%;
+}
+
+.individualCourse h4{
+  color: var(--customDarkBlue);
+  margin: 15px 0;
+}
+
+
+@media (max-width:1200px){
+  .individualCourse{
+    width: 300px;
+  }
+}
+
+@media (max-width:850px){
+  .courses{
+    margin: 50px 20px;
+  }
+}
