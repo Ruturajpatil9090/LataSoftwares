@@ -254,6 +254,106 @@
 }
 
 
+/* --------------how to apply---------- */
+.howToApply{
+  /* background-color: aquamarine; */
+  margin: 0 50px 50px;
+}
+
+.processContainer{
+  /* background-color: aquamarine; */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+  counter-reset: processCount;
+
+}
+
+.howToApply h1{
+  text-align: center;
+  font-size: 40px;
+  color: var(--customDarkBlue);
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.process{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+
+.process:last-child{
+  margin-bottom: 0;
+}
+
+.processName{
+  border: 1px solid gray;
+  border-radius:  10px;
+  height: 80px;
+  max-width: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  /* font-weight: bold;  */
+  position: relative;
+  box-shadow: 0 0 10px rgb(239,60,15, 0.3);
+  padding: 10px 10px 10px 35px;
+  text-align: center;
+}
+
+.processName::before{
+  counter-increment: processCount;
+  content: counter(processCount);
+  /* padding: 5px; */
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed red;
+  border-radius: 10px;
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  transform: translateX(-50%);
+  background-color: rgb(255,251,248);
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.processName::after{
+  content: "";
+  width: 70px;
+  height: 3px;
+  background-color: rgb(0,165,236);
+  position: absolute;
+  right: 0;
+  transform: translateX(100%);
+}
+
+.processDescription{
+  box-shadow: 0 0 10px #d4e6eb;
+  max-width: 700px;
+  padding: 10px;
+  min-height: 100px ;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  /* font-size: 20px; */
+  color: gray;
+  font-weight: 500;
+  background: linear-gradient(101deg,#fff,#f3fcff);
+  text-align: justify;
+}
+
+
+
+
 
 
 @media (max-width: 1150px){
@@ -264,6 +364,22 @@
     flex-direction: column;
   }
 }
+
+@media (max-width:1150px){
+  .process{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .processName::after{
+    width: 3px;
+    height: 40px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+
+}
+
 @media (max-width: 850px){
   .homeDiv {
     flex-direction: column-reverse;
@@ -282,6 +398,9 @@
   }
   .testimonial{
     margin: 100px 20px 50px;
+  }
+  .howToApply{
+    margin: 0 20px 50px;
   }
 }
 
@@ -305,7 +424,12 @@
   .advanceFeature .heading h5{
     font-size: 15px;
   }
-  .advanceFeature .heading h1{
+  .advanceFeature .heading h1, .howToApply h1, .whyUs h1{
     font-size: 25px;
+  }
+  .processName{
+    font-size: 18px;
+    padding-left: 25px;
+    width: auto;
   }
 }

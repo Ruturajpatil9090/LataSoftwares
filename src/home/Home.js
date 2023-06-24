@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Home.css"
+import HowToApply from './HowToApply'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
           <img src="/img/homeGif.png" alt="" />
         </div>
       </div>
+      <HowToApply></HowToApply>
       <div className="whyUs">
         <h1>Why EdExcel.Ai ?</h1>
         <h5>The most important part of education is proper training.</h5>

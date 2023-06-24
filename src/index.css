@@ -21,3 +21,9 @@ html {
   scrollbar-width: thin;          /* "auto" or "thin" */
   scrollbar-color: blue orange;   /* scroll thumb and track */ 
 }
+@media (min-width: 1366px){
+  body{
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+}
