@@ -185,7 +185,7 @@
 }
 
 .testimonial{
-  margin: 100px 50px 50px;
+  margin: 50px;
 }
 
 .testimonial .heading{
@@ -269,7 +269,7 @@
 
 }
 
-.howToApply h1{
+.howToApply h1, .InternshipLetterDiv h1, .projectDiv h1{
   text-align: center;
   font-size: 40px;
   color: var(--customDarkBlue);
@@ -352,6 +352,70 @@
 }
 
 
+/* --------------internship and course---------- */
+.InternshipLetterDiv{
+  padding: 50px;
+  background-color: rgb(237,246,247);
+  margin-bottom: 50px;
+}
+
+.InternshipLetterDiv .contentAndCertificate p{
+  text-align: justify;
+}
+/* .InternshipLetterDiv .contentAndCertificate h5{
+  text-align: center;
+} */
+.InternshipLetterDiv .contentAndCertificate img{
+  max-width: min(90%, 450px);
+  max-height: 250px;
+}
+
+
+/* --------------projects-------------- */
+.projectDiv {
+  padding: 50px;
+}
+
+.projectDiv .projectHeading{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(19,193,145);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.projectDiv h5, .projectDiv p{
+  text-align: center;
+}
+
+.projectDiv .projects{
+  margin-top: 50px;
+}
+
+.projectDiv .singleProject{
+  background-color: rgb(242,251,247);
+  border-radius: 20px;
+  margin: 10px 0 20px;
+  padding: 10px;
+  padding-top: 40px;
+}
+
+.projectDiv .singleProject img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+.projectDiv .technologies p{
+  font-weight: bolder;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+  max-width: min(90%, 200px);
+}
+
 
 
 
@@ -402,6 +466,15 @@
   .howToApply{
     margin: 0 20px 50px;
   }
+  .InternshipLetterDiv{
+    padding: 50px 20px;
+  }
+  .InternshipLetterDiv h1{
+    margin-bottom: 20px;
+  }
+  .projectDiv {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 425px){
@@ -424,12 +497,24 @@
   .advanceFeature .heading h5{
     font-size: 15px;
   }
-  .advanceFeature .heading h1, .howToApply h1, .whyUs h1{
+  .advanceFeature .heading h1, .howToApply h1, .whyUs h1, .InternshipLetterDiv h1{
     font-size: 25px;
+  }
+
+  .processContainer{
+    padding: 30px 20px;
+  }
+  .process{
+    margin-bottom: 40px;
   }
   .processName{
     font-size: 18px;
     padding-left: 25px;
     width: auto;
+  }
+  .processName::before{
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-50%);
   }
 }

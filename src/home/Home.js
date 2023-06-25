@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Home.css"
 import HowToApply from './HowToApply'
+import InternshipLetter from './InternshipLetter'
+import Project from './Project'
 
 function Home() {
   return (
@@ -16,6 +18,7 @@ function Home() {
         </div>
       </div>
       <HowToApply></HowToApply>
+      <InternshipLetter/>
       <div className="whyUs">
         <h1>Why EdExcel.Ai ?</h1>
         <h5>The most important part of education is proper training.</h5>
@@ -78,6 +81,7 @@ function Home() {
           <img src="/img/OnlineEducation.png" alt="" />
         </div>
       </div>
+      <Project/>
       <div className='testimonial'>
         <div className="heading">
           <h5>TESTIMONIALS</h5>
