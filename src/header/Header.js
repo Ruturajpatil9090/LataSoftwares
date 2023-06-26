@@ -19,9 +19,11 @@ function Header() {
         </div>
         <nav id='nav'>
           <NavLink onClick={hideMenu} style={navStyle} to={"/"}>Home</NavLink>
+          <NavLink onClick={hideMenu} style={navStyle} to={"/..."}>Internship</NavLink>
           <NavLink onClick={hideMenu} style={navStyle} to={"/courses"}>Courses</NavLink>
           <NavLink onClick={hideMenu} style={navStyle} to={"/about"}>About</NavLink>
           <NavLink onClick={hideMenu} style={navStyle} to={"/contact"}>Contact</NavLink>
+          <NavLink onClick={hideMenu} style={navStyle} to={"/...."}>Hire From Us</NavLink>
         </nav>
         <div className="toggleMenu" id='toggleMenu' onClick={toggleMenu}></div>
       </header>

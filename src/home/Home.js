@@ -4,6 +4,50 @@ import HowToApply from './HowToApply'
 import InternshipLetter from './InternshipLetter'
 import Project from './Project'
 
+const whyUs = [
+  {
+    className : "fa-solid fa-hands-holding-child",
+    heading : "Better Future",
+    description : "Lorem ipsum dolor sit aeius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?"
+  },
+  {
+    className : "fa-solid fa-medal",
+    heading : "Qualified Trainers",
+    description : "Lorem ipsum dolor sit aeius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?"
+  },
+  {
+    className : "fa-solid fa-user-graduate",
+    heading : "Internship & Job",
+    description : "Lorem ipsum dolor sit aeius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?"
+  },
+  {
+    className : "fa-solid fa-handshake",
+    heading : "24/7 Great Support",
+    description : "Lorem ipsum dolor sit aeius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?"
+  },
+  {
+    className : "fa-solid fa-hands-holding-child",
+    heading : "Better Future",
+    description : "Lorem ipsum dolor sit aeius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?"
+  },
+  {
+    className : "fa-solid fa-medal",
+    heading : "Qualified Trainers",
+    description : "Lorem ipsum dolor sit aeius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?"
+  },
+  {
+    className : "fa-solid fa-user-graduate",
+    heading : "Internship & Job",
+    description : "Lorem ipsum dolor sit aeius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?"
+  },
+  {
+    className : "fa-solid fa-handshake",
+    heading : "24/7 Great Support",
+    description : "Lorem ipsum dolor sit aeius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?"
+  }
+
+]
+
 function Home() {
   return (
     <>
@@ -23,34 +67,21 @@ function Home() {
         <h1>Why EdExcel.Ai ?</h1>
         <h5>The most important part of education is proper training.</h5>
         <div className='whyUsContain'>
-          <div className="singleContain">
-            <div className='logoDiv'>
-              <i className="fa-solid fa-hands-holding-child"></i> 
-            </div>
-            <h3>Better Future</h3>
-            <p>Lorem ipsum dolor sit aeius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?</p>
-          </div>
-          <div className="singleContain">
-            <div className='logoDiv'>
-              <i className="fa-solid fa-medal"></i>
-            </div>
-            <h3>Qualified Trainers</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo a consequuntur sapiente, dolorem veniam architecto vero, eius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?</p>
-          </div>
-          <div className="singleContain">
-            <div className='logoDiv'>
-              <i className="fa-solid fa-user-graduate"></i>
-            </div>
-            <h3>Internship & Job</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo a consequuntur sapiente, dolorem veniam architecto vero, eius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?</p>
-          </div>
-          <div className="singleContain">
-            <div className='logoDiv'>
-              <i className="fa-solid fa-handshake"></i>
-            </div>
-            <h3> 24/7 Great Support</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo a consequuntur sapiente, dolorem veniam architecto vero, eius quam similique ex totam! Tenetur nostrum praesentium fuga porro aut totam officia neque?</p>
-          </div>
+
+          {
+            whyUs.map((data)=>{
+              return (
+                <div className="singleContain">
+                  <div className='logoDiv'>
+                    <i className={data.className}></i> 
+                  </div>
+                  <h3>{data.heading}</h3>
+                  <p>{data.description}</p>
+                </div>
+              )
+            })
+          }
+    
         </div>
       </div>
       <div className="advanceFeature">
