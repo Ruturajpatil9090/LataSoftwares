@@ -1,0 +1,261 @@
+.coursesBanner img{
+  width: 100%;
+  max-height: 600px;
+}
+
+.courses{
+  margin: 50px;
+}
+
+.courses .heading{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: gray;
+  margin-bottom: 50px;
+}
+
+.courses .heading h1{
+  font-weight: bolder;
+  color: var(--customDarkBlue);
+  margin: 20px 0;
+}
+
+.courses .heading .spanDiv{
+  display: inline-block;
+  width: 100px;
+  border: 1px solid rgb(255,102,59);
+}
+.coursesDiv{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.individualCourse{
+  width: 350px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 10px;
+  text-align: center;
+  color: gray;
+  border-radius: 10px;
+}
+
+.individualCourse img{
+  width: 100%;
+}
+
+.individualCourse h4{
+  color: var(--customDarkBlue);
+  margin: 15px 0;
+}
+
+
+@media (max-width:1200px){
+  .individualCourse{
+    width: 300px;
+  }
+}
+
+@media (max-width:850px){
+  .courses{
+    margin: 50px 20px;
+  }
+}
+
+
+.whyUs{
+  text-align: center;
+  font-size: 18px;
+}
+
+.whyUs h1{
+  font-size: 40px;
+  color: var(--customDarkBlue);
+  font-weight: bold;
+}
+
+.whyUs h5{
+  color: gray;
+  margin: 0 20px;
+}
+
+.whyUsContain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.whyUs .singleContain{
+  width: 300px;
+  min-width: 300px;
+  padding: 20px;
+  transition: all 0.6s ease 0s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--customDarkBlue);
+  cursor: pointer;
+  margin: 15px;
+}
+.whyUs .singleContain .logoDiv{
+  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(240, 244, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  transition: all 0.6s ease 0s;
+}
+
+.whyUs .singleContain:hover{
+  /* box-shadow:rgb(255,102,59)  0px 1px 4px; */
+  /* transform: translateY(-10px); */
+}
+
+.whyUs .singleContain:hover .logoDiv{
+  /* color: white; */
+  /* background: linear-gradient(to right, rgb(239,60,15), rgb(249,177,1)) !important */
+}
+
+/* .whyUs .singleContain p{
+  color: gray;
+  text-align: center;
+  margin-top: 20px;
+} */
+
+
+/* online courses css */
+
+h1{
+  text-align: center;
+  font-weight: 20px;
+}
+.coursesCard {
+  padding: 50px 0;
+}
+.coursesCard .items {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+.coursesCard .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #1eb2a6;
+  padding: 15px;
+}
+.coursesCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coursesCard .text {
+  margin-left: 15px;
+  text-align: left;
+}
+.coursesCard .text h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.coursesCard .rate {
+  margin: 20px 0;
+  color: #1eb2a6;
+}
+.coursesCard .rate i {
+  font-size: 13px;
+  margin-right: 5px;
+}
+.coursesCard .details .dimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.coursesCard .details .box {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+.coursesCard .details span {
+  color: #1eb2a6;
+  font-weight: 500;
+  font-size: 14px;
+}
+.coursesCard .price {
+  margin: 30px 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+.coursesCard h3 {
+  font-weight: 500;
+  color: #1eb2a6;
+}
+/*-------------online---------*/
+.online {
+  text-align: center;
+}
+.online .box {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+.online .img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  position: relative;
+}
+.online img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.online h1 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 30px;
+}
+.online span {
+  background-color: #f8f8f8;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1eb2a6;
+  border-radius: 5px;
+}
+.online .box .show {
+  opacity: 0;
+}
+.online .box:hover {
+  background-color: #1eb2a6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.online .box:hover .show {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.online .box:hover h1 {
+  color: #fff;
+}
+/*-------------online---------*/
+@media screen and (max-width: 768px) {
+}
+
+
+.button {
+  margin-top: 40px;
+}

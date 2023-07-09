@@ -35,22 +35,22 @@ function Contact() {
             <div className="singleInfo">
               <i className="fa-solid fa-phone-volume"></i>
               <h4>Call Us On</h4>
-              <a href="tel:7058919412">9845997456</a>
+              <a href="tel:7058919412">+91-9623942391</a>
             </div>
             <div className="singleInfo">
               <i className="fa-solid fa-envelope"></i>
               <h4>Email Us</h4>
-              <a href="mailto: satheomkar143@gmail.com" target='_blank'>omkar@gmail.com</a>
+              <a href="mailto: satheomkar143@gmail.com" target='_blank'>edexcel.ai@gmail.com</a>
             </div>
             <div className="singleInfo">
               <i className="fa-brands fa-whatsapp"></i>
               <h4>Whatsapp Us</h4>
-              <a href="https://api.whatsapp.com/send?phone=7058919412&text=Hi There." target='_blank'>9845698521</a>
+              <a href="https://api.whatsapp.com/send?phone=7058919412&text=Hi There." target='_blank'>+91-9623942391</a>
             </div>
             <div className="singleInfo">
               <i className="fa-solid fa-location-dot"></i>
               <h4>Our Location</h4>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores odio .</p>
+              <p>176,Shaniwar Peth, Near Shaniwarwada,Pune 411030</p>
             </div>
           </div>
         </div>

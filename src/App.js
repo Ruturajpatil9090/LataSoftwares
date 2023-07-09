@@ -1,6 +1,6 @@
 import Routing from "./Routing";
 import Footer from "./footer/Footer";
-import Header from "./header/Header";
+import Header from "./Components/header/Header";
 import {BrowserRouter as Router} from "react-router-dom"
 
 function App() {

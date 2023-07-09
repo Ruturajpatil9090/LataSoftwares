@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import brain from "../assests/Courses/brain.png"
 
 function Footer() {
   return (
@@ -7,13 +8,13 @@ function Footer() {
       <footer>
         <div className="footerContent">
           <div className="footerLogo">
-            <img src="/img/companyLogo.png" alt="" />
+            <img src={brain} alt="" />
             <h3>EdExcel.Ai</h3>
           </div>
           <div className="footerAddress">
-            <p><i className="fa-solid fa-location-dot"></i> Office No. 454, Shanivar Peth, pune, 416256</p>
-            <p><i className="fa-solid fa-phone"></i> 5646545465</p>
-            <p><i className="fa-solid fa-envelope"></i> admin@EdExcel.com</p>
+            <p><i className="fa-solid fa-location-dot"></i>176,Shaniwar Peth,Near Shaniwarwada, Pune-411030</p>
+            <p><i className="fa-solid fa-phone"></i> +91-9623942391</p>
+            <p><i className="fa-solid fa-envelope"></i> edexcel.ai@gmail.com</p>
           </div>
           <div className="footerConnect">
             <p>Follow Us</p>

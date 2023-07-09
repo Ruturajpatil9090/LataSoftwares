@@ -2,7 +2,9 @@ import React from 'react'
 import "./Home.css"
 import HowToApply from './HowToApply'
 import InternshipLetter from './InternshipLetter'
-import Project from './Project'
+import logo from "../assests/Courses/git.png"
+import {useNavigate} from "react-router-dom"
+
 
 const whyUs = [
   {
@@ -49,6 +51,15 @@ const whyUs = [
 ]
 
 function Home() {
+const navigate = useNavigate()
+const handleClick=()=>{
+  navigate("/intenship/full-stack")
+}
+
+const handleClickNow=()=>{
+  navigate('./intenship/data-science')
+}
+
   return (
     <>
       <div className='homeDiv'>
@@ -61,6 +72,7 @@ function Home() {
           <img src="/img/homeGif.png" alt="" />
         </div>
       </div>
+      
       <HowToApply></HowToApply>
       <InternshipLetter/>
       <div className="whyUs">
@@ -94,17 +106,20 @@ function Home() {
           <div className="Points">
               <div className="subPoint">
                 <div className="logo">
-                  <i className="fa-solid fa-earth-asia"></i>
+                  <img src={logo} alt=""/>
                 </div>
-                <h3>Learn Anywhere</h3>
+                <h3>Full Stack Development</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos numquam suscipit aut minus veniam itaque.</p>
+              <button className='btn btn-primary' onClick={handleClick}>Know More</button>
               </div>
               <div className="subPoint">
                 <div className="logo">
-                  <i className="fa-solid fa-user-tie"></i>
+                <img src={logo} alt=""/>
+                  
                 </div>
-                <h3>Expert Teacher</h3>
+                <h3>AI And Data Science</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos numquam suscipit aut minus veniam itaque.</p>
+                <button className='btn btn-primary' onClick={handleClickNow}>Know More</button>
               </div>
           </div>
         </div>
@@ -112,7 +127,7 @@ function Home() {
           <img src="/img/OnlineEducation.png" alt="" />
         </div>
       </div>
-      <Project/>
+    
       <div className='testimonial'>
         <div className="heading">
           <h5>TESTIMONIALS</h5>

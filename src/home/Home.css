@@ -167,7 +167,7 @@
   height: 70px;
   border-radius: 50%;
   color: white;
-  background: linear-gradient(to right, rgb(239,60,15), rgb(249,177,1)) !important;
+  /* background: linear-gradient(to right, rgb(239,60,15), rgb(249,177,1)) !important; */
   display: flex;
   align-items: center;
   justify-content: center;

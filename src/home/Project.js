@@ -22,6 +22,27 @@ const projects = [
     description : "Make platform to search for movies, favorite TV shows. Enable user to search their favorite shows and add functionalities to perform crud operation.",
     technologies :["MongoDB", "Express JS", "React JS", "Node JS"]
   },
+  {
+    ProjectName : "OTT Platform",
+    img : "/img/projects/netflix.jpeg",
+    subHeading : "Build seamless video streaming OTT platform like Netflix, Amazon Prime.",
+    description : "Make platform to search for movies, favorite TV shows. Enable user to search their favorite shows and add functionalities to perform crud operation.",
+    technologies :["MongoDB", "Express JS", "React JS", "Node JS"]
+  },
+  {
+    ProjectName : "OTT Platform",
+    img : "/img/projects/netflix.jpeg",
+    subHeading : "Build seamless video streaming OTT platform like Netflix, Amazon Prime.",
+    description : "Make platform to search for movies, favorite TV shows. Enable user to search their favorite shows and add functionalities to perform crud operation.",
+    technologies :["MongoDB", "Express JS", "React JS", "Node JS"]
+  },
+  {
+    ProjectName : "OTT Platform",
+    img : "/img/projects/netflix.jpeg",
+    subHeading : "Build seamless video streaming OTT platform like Netflix, Amazon Prime.",
+    description : "Make platform to search for movies, favorite TV shows. Enable user to search their favorite shows and add functionalities to perform crud operation.",
+    technologies :["MongoDB", "Express JS", "React JS", "Node JS"]
+  },
 ]
 
 

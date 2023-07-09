@@ -1,7 +1,8 @@
 footer{
-  background-color: var(--customDarkBlue);
-  color: white;
+  background-color: white;
+  color:black;
   padding: 50px;
+  margin-bottom: 50px;
 }
 
 .footerContent{
@@ -23,7 +24,7 @@ footer{
 
 .footerAddress i{
   margin-right: 10px;
-  color: rgb(27,214,252);
+  color:rgb(27,214,252);
   font-size: 20px;
 }
 
