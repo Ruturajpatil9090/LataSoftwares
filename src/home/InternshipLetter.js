@@ -6,10 +6,10 @@ function InternshipLetter() {
       <h1>Internship Letter With Course Completion Certificate</h1>
       <div className="contentAndCertificate row">
         <div className="content col-md-6">
-          <h5 className='text-center text-md-start'>EdExcel.Ai's Industry Recognized Certificate & Internship Letter </h5>
+          <h5 className='text-center text-md-start'>Lata Software Consultany Industry Recognized Certificate & Internship Letter </h5>
           <p>We will provide certificate and internship letter after successfully completion of your training. </p>
           <h5 className='text-center text-md-start'>Sharable And Credible</h5>
-          <p>You can add EdExcel.Ai's certificate and letter to your linkedIn profile, portfolio website, resume and other social media platform. We will provide you verified credential.</p>
+          <p>You can add Lata Software Consultany certificate and letter to your linkedIn profile, portfolio website, resume and other social media platform. We will provide you verified credential.</p>
         </div>
         <div className="certificate col-md-6">
           <div className='row'>

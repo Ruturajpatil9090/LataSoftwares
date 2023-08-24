@@ -1,5 +1,5 @@
 import Routing from "./Routing";
-import Footer from "./footer/Footer";
+import Footer from "./Common/footer/Footer";
 import Header from "./Components/header/Header";
 import {BrowserRouter as Router} from "react-router-dom"
 

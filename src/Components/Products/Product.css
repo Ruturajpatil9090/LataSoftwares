@@ -1,0 +1,44 @@
+/* --------------projects-------------- */
+.projectDiv {
+    padding: 50px;
+  }
+  
+  .projectDiv .projectHeading{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19,193,145);
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .projectDiv h5, .projectDiv p{
+    text-align: center;
+  }
+  
+  .projectDiv .projects{
+    margin-top: 50px;
+  }
+  
+  .projectDiv .singleProject{
+    background-color: rgb(242,251,247);
+    border-radius: 20px;
+    margin: 10px 0 20px;
+    padding: 10px;
+    padding-top: 50px;
+  }
+  
+  .projectDiv .singleProject img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+  }
+  .projectDiv .technologies p{
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    max-width: min(90%, 200px);
+  }

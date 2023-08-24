@@ -3,14 +3,14 @@ import React from 'react'
 function HowToApply() {
   return (
     <div className='howToApply'>
-      <h1>How to Apply, Register, Enroll?</h1>
+      <h1>How to Enroll For Intenship's ?</h1>
       <div className="processContainer">
         <div className="process">
           <div className="processName">
             Application & Shortlisting
           </div>
           <div className="processDescription">
-            Fill the registration form. We will review your application and contact you if you are selected based on eligibility criteria.
+          Submit your application through our online portal. Our team will carefully review all applications and shortlist candidates who meet the criteria, ensuring a fair and thorough selection process.
           </div>
         </div>
         <div className="process">
@@ -18,7 +18,7 @@ function HowToApply() {
             Know us before grow with us
           </div>
           <div className="processDescription">
-            After selection, we will share you free demo session schedule. Attend that session to understand industrial training and internship program with placement support. 
+          Discover our company's values, mission, and culture, ensuring a perfect alignment between your aspirations and our vision for a collaborative and successful journey together.
           </div>
         </div>
         <div className="process">
@@ -26,15 +26,15 @@ function HowToApply() {
             Invest in yourself for long term professional growth
           </div>
           <div className="processDescription">
-            Intern have to pay enrollment amount to confirm admission. Offer letter will be provided after admission confirmation.
+          Make a lasting investment in your professional growth. Our programs are designed to empower you with skills and knowledge that will pay dividends throughout your career, ensuring a prosperous and fulfilling future.
           </div>
         </div>
         <div className="process">
           <div className="processName">
-            Internship batch Commencement
+            Internship Letter
           </div>
           <div className="processDescription">
-            Internship training will be started post enrollment. BAtch will be on Monday-Friday. And weekly assessment, mock or test. Schedule will be given during free session.  
+          Upon successful completion of your internship, we will provide you with an internship completion letter. This letter will acknowledge your achievements, highlight your contributions, and serve as a testament to the skills and experience you've gained during your time with us
           </div>
         </div>
       </div>

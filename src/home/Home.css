@@ -15,6 +15,15 @@
   text-align: justify;
 }
 
+.frameContent button{
+  border-radius: 25px;
+  width: 30%;
+  height: 50px;
+  background-color: white;
+  outline-color: rgb(27,214,252);
+  /* font-size: 20px; */
+}
+
 .frameContent h1{
   color: var(--customDarkBlue);
   font-size: 50px;
@@ -143,7 +152,7 @@
 
 .advanceFeature .ImgDiv img{
   width: 100%;
-  max-width: 500px;
+  max-width: 20px;
 }
 
 .advanceFeature .Points{
@@ -165,7 +174,7 @@
   margin-bottom: 30px;
   width: 70px;
   height: 70px;
-  border-radius: 50%;
+  border-radius: 100%;
   color: white;
   /* background: linear-gradient(to right, rgb(239,60,15), rgb(249,177,1)) !important; */
   display: flex;
