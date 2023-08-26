@@ -13,7 +13,7 @@ const projects = [
     ProjectName : "Sugar ERP Solutions",
     img : "/img/projects/sugar.jfif",
     subHeading : "Sugar ERP Solutions",
-    description : "Accounting of Tender Stock, Delievery orders to sugar mill, Auto Sale and Purchase bills. Payment of various taxes and much more related to sugar brokers and traders,We also provide software which supports your regional language.",
+    description : "Our Sugar Software provides comprehensive business solution for Sugar Brokers and Sugar Traders. This includes accounting of Tender Stock, Delivery orders to Sugar Mills, Auto Sale and Purchase  Bills and entire taxation of traders.",
     technologies :["ASP.NET", "MSSQL"]
   },
   {

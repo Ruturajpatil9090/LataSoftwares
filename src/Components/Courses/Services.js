@@ -4,6 +4,9 @@ import "./Services.css";
 import Ashirwad from "../../assests/Ashirwad.jpg";
 import gstc from "../../assests/gstc.jpg"
 import Navkar from "../../assests/navkar.jpg"
+import hingalaj from "../../assests/hingalaj.jpg"
+import jainsales from "../../assests/jainsales.jpg"
+import Jk from "../../assests/JK.png"
 
 const whyUs = [
   {
@@ -60,7 +63,7 @@ function Services() {
     <>
       <div className="whyUs">
         <h1>Our Service's</h1>
-        <h3>
+        <h5>
           We offer Customized Solutions for integrating your various processes
           under one platform. All needs of firms in respect of accounting, Human
           Resources, Taxation, MIS reports and any other specific requirements
@@ -74,7 +77,7 @@ function Services() {
           and consequential headache. Your various branches can be seamlessly
           integrated using our web application. You can also operate this
           software from anywhere in the world.
-        </h3>
+        </h5>
 
         <h1>Our Client's</h1>
 <div className="clients" >
@@ -82,7 +85,7 @@ function Services() {
           <div className="infoDiv">
             <div className="heading">
               <h5>
-                <span className="headSpan"></span>Aashirwad
+                <span className="headSpan"></span>JK group Kolhapur
               </h5>
             </div>
             <br></br>
@@ -90,7 +93,7 @@ function Services() {
             <div className="Points">
               <div className="subPoint">
                 <div className="image">
-                  <img src={Ashirwad} alt="" />
+                  <img src={Jk} alt="" />
                 </div>
               </div>
             </div>
@@ -133,6 +136,66 @@ function Services() {
             </div>
           </div>
         </div>
+
+</div>
+
+<div className="clients" >
+<div className="advanceFeature">
+          <div className="infoDiv">
+            <div className="heading">
+              <h5>
+                <span className="headSpan"></span>Ashirwad
+              </h5>
+            </div>
+            <br></br>
+            <br></br>
+            <div className="Points">
+              <div className="subPoint">
+                <div className="image">
+                  <img src={Ashirwad} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="advanceFeature">
+          <div className="infoDiv">
+            <div className="heading">
+              <h5>
+                <span className="headSpan"></span>Jainsales
+              </h5>
+            </div>
+            <br></br>
+            <br></br>
+            <div className="Points">
+              <div className="subPoint">
+                <div className="image">
+                  <img src={jainsales} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="advanceFeature">
+          <div className="infoDiv">
+            <div className="heading">
+              <h5>
+                <span className="headSpan"></span>Hingalaj
+              </h5>
+            </div>
+            <br></br>
+            <br></br>
+            <div className="Points">
+              <div className="subPoint">
+                <div className="image">
+                  <img src={hingalaj} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 </div>
 
 
@@ -140,25 +203,22 @@ function Services() {
         <br></br>
         <br></br>
 
-        <h1>See Our Best Work</h1>
+        {/* <h1>See Our Best Work</h1> */}
 
         <div className="whyUsContain">
           {whyUs.map((data) => {
             return (
-              <div className="singleContain">
-                <div className="logoDiv">
-                  <i className={data.className}></i>
-                </div>
-                <h3>{data.heading}</h3>
-                {/* <p>{data.description}</p> */}
-              </div>
+              <></>
+              // <div className="singleContain">
+              //   <div className="logoDiv">
+              //     <i className={data.className}></i>
+              //   </div>
+              //   <h3>{data.heading}</h3>
+              // </div>
             );
           })}
           <br></br>
           <br></br>
-          {/* <div  className='button'>
-          <button onClick={handleClick} className='btn btn-danger'>Apply Now</button>
-          </div> */}
         </div>
       </div>
     </>

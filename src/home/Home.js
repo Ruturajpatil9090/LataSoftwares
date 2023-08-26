@@ -3,29 +3,30 @@ import "./Home.css"
 import HowToApply from './HowToApply'
 import InternshipLetter from './InternshipLetter'
 import logo from "../assests/commudity.jpg"
+import Trading from "../assests/onlinetrading.jpg"
 import {useNavigate} from "react-router-dom"
 
 
 const whyUs = [
   {
     className : "fa-solid fa-hands-holding-child",
-    heading : "Better Future",
-    description : '"Empowering Tomorrow Together. At Better Future Company, we are committed to pioneering positive change. Through innovation, sustainability, and collaboration, we are shaping a brighter future for all. Join us in creating a world of endless possibilities."'
+    heading : "Need Of ERP Software",
+    description : 'Use Of Software for business accounting is a need of the hour.This saves lot of time of Enterpreneur. As also it works without human mistakes,errors and ommissions. Working without accounting software is now a days is old fashioned.'
   },
   {
-    className : "fa-solid fa-medal",
-    heading : "Qualified Trainers",
-    description : '"Our team consists of highly qualified trainers with extensive expertise in their fields. With proven track records, industry recognition, and a passion for teaching, our trainers ensure an exceptional learning experience for all our participants."'
+    className : "fa-solid fa-stamp",
+    heading : "Government Transactions",
+    description : 'Custumized and latest ERP software provides facility of handling all government transactions like filing of GST retuns,creation of E-Way bill,TDS/TCS processing.It also provides facility of submission of all mandatory returns through software with accuracy.'
   },
   {
-    className : "fa-solid fa-user-graduate",
-    heading : "Internship & Job",
-    description : '"Unlock your potential through our dynamic internships and job opportunities. Gain real-world experience, develop essential skills, and pave your way to a successful career with our diverse range of internships and job openings, tailored to your aspirations"'
+    className : "fa-solid fa-database",
+    heading : "Data availability to all concerned",
+    description : 'ERP software fulfills all data requirement needs for your CA,GST Consultant and other taxsation handling agencies.No separate efforts are required to be taken by office staff at the time of filing of annual tax returns.'
   },
   {
-    className : "fa-solid fa-handshake",
-    heading : "24/7 Great Support",
-    description : '"Experience unparalleled assistance with our 24/7 Great Support. Our dedicated support team is always ready to provide swift and effective solutions, ensuring your peace of mind and uninterrupted progress towards your goals."'
+    className : "fa-solid fa-book",
+    heading : "Vigorous MIS Reports",
+    description : 'ERP software is having capability of providing various types of MIS reports to all concerned.It also provides tailer made reports as per requirement of management/other staff.This capability caters need of reports from top to bottom management.'
   }
 
 ]
@@ -33,7 +34,7 @@ const whyUs = [
 function Home() {
 const navigate = useNavigate()
 const handleClick=(url)=>{
-  window.open("https://www.moneycontrol.com/commodity/",'_blank')
+  navigate('/product')
 }
 
 const handleClickGet=()=>{
@@ -46,7 +47,7 @@ const handleClickGet=()=>{
         <div className='frameContent'>
           <h2>Grow Your Business With</h2>
           <h1 style={{  "color":"(27,214,252)"}}>Lata Software Consultancy</h1>
-         <h5><strong></strong>"We develop Web-based Accounting Software as per the requirement of Customers for various sectors."</h5>
+         <h5><strong></strong>"We develop Web-based Accounting/ERP Software solutions as per the requirement of Customers for various sectors."</h5>
          <br></br>
          <br></br>
          <button onClick={handleClickGet}>Get Started</button> 
@@ -58,7 +59,7 @@ const handleClickGet=()=>{
       </div>
       
       <div className="whyUs">
-        <h1>Why Lata Software Consultancy?</h1>
+        {/* <h1>Why Lata Software Consultancy?</h1> */}
         <br></br>
         {/* <h5>The most important part of Learn New Things is proper training.</h5> */}
         <div className='whyUsContain'>
@@ -82,15 +83,15 @@ const handleClickGet=()=>{
       <br></br>
       <br></br>
       <br></br>
-      <HowToApply></HowToApply>
-      <InternshipLetter/>
+      {/* <HowToApply></HowToApply> */}
+      {/* <InternshipLetter/> */}
      
       <div className="advanceFeature">
         <div className="infoDiv">
           <div className="heading">
             <h5><span className='headSpan'></span> ADVANCE FEATURES</h5>
-            <h1>Our Advance Feature</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nesciunt ipsum hic pariatur libero, quia molestiae obcaecati placeat facilis sapiente est excepturi iste. Sapiente quas corporis voluptate. Reiciendis, esse architecto?</p>
+             <h1>Our Advance Feature</h1>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nesciunt ipsum hic pariatur libero, quia molestiae obcaecati placeat facilis sapiente est excepturi iste. Sapiente quas corporis voluptate. Reiciendis, esse architecto?</p> */}
           </div>
           <br></br>
           <div className="Points">
@@ -98,16 +99,18 @@ const handleClickGet=()=>{
                 <div className="logo">
                   <img src={logo} alt=""/>
                 </div>
-                <h3>Online</h3>
-                <h3>Commudity Market</h3>
-                <p>Welcome to our online commodity market, a digital platform where buyers and sellers converge to trade a wide array of commodities. Explore seamless transactions, real-time pricing, and a global reach, revolutionizing the way commodities are bought and sold.</p>
+                <br></br>
+                <br></br>
+                <h3>Online Business Trading Software</h3>
+                <p>We provides online business trading software for all types of traders dealing in all commodities.We also provide online business software for manufacturers,service providers and others businesses.By using online trading software clients of our customers can book orders,view their bills,get statement of account etc. through their mobile phone/laptop.This avoids human intervention in getting services to the clients of our customers.
+                   </p>
               <button className='btn btn-primary' onClick={handleClick}>Know More</button>
               </div>
   
           </div>
         </div>
         <div className="ImgDiv">
-          <img src="/img/OnlineEducation.png" alt="" />
+          <img src={Trading} alt="" />
         </div>
       </div>
       <br></br>

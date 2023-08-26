@@ -142,7 +142,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: linear-gradient(to right, rgb(239,60,15), rgb(249,177,1)) !important;
+  /* background: linear-gradient(to right, rgb(239,60,15), rgb(249,177,1)) !important; */
   border-top-left-radius:40% ;
   border-top-right-radius: 60%;
   border-bottom-left-radius: 60%;
@@ -151,8 +151,9 @@
 }
 
 .advanceFeature .ImgDiv img{
-  width: 100%;
-  max-width: 20px;
+  width: 500%;
+  border-radius: 25px;
+  
 }
 
 .advanceFeature .Points{
@@ -182,6 +183,13 @@
   justify-content: center;
   font-size: 30px;
 }
+.advanceFeature .Points .subPoint .logo img{
+  margin-top: 60px;
+  width: 200%;
+  height: 150px;
+  border-radius: 50%;
+}
+
 
 .advanceFeature .Points .subPoint h3{
   color: var(--customDarkBlue);

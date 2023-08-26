@@ -30,13 +30,13 @@ const handleTwitter=(url)=>{
           </div>
           <div className="footerAddress">
           <i className="fa-solid fa-location-dot"></i>
-            Minakshi Apartment, Rajarampuri 13th Lane, Kolhapur, 0231-2536688
+          Swapnapurti Appartment Flat No-627,Puikhadi,Kolhapur-416012.
             <br></br>
             <br></br>
             <i className="fa-solid fa-phone"></i>+91 8625044832
             <br></br>
             <br></br>
-            <i className="fa-solid fa-envelope"></i> support@latasoftware.in
+            <i className="fa-solid fa-envelope"></i> official@latasoftware.in
           </div>
           <div className="footerConnect">
             <p>Follow Us</p>

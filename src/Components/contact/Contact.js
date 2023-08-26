@@ -83,11 +83,7 @@ function Contact() {
             autoComplete='off'
           >
             <option value="" disabled>Select Position</option>
-            <option value="JavaScript Developer">JavaScript Developer</option>
-            <option value="NodeJs Intern">NodeJs Intern</option>
-            <option value="Jr Reactjs Developer">Jr Reactjs Developer</option>
-            <option value="Java Developer">Java Developer</option>
-            <option value="Other">Other</option>
+            
           </select>
           <input
             required
@@ -111,7 +107,7 @@ function Contact() {
             <div className="singleInfo">
               <i className="fa-solid fa-envelope"></i>
               <h4>Email Us</h4>
-              <a href="mailto: satheomkar143@gmail.com" target='_blank'>support@latasoftware.in</a>
+              <a href="mailto: satheomkar143@gmail.com" target='_blank'>official@latasoftware.in</a>
             </div>
             <div className="singleInfo">
               <i className="fa-brands fa-whatsapp"></i>
@@ -121,7 +117,7 @@ function Contact() {
             <div className="singleInfo">
               <i className="fa-solid fa-location-dot"></i>
               <h4>Our Location</h4>
-              <p>Minakshi Apartment, Rajarampuri 13th Lane, Kolhapur, 0231-2536688</p>
+              <p>Phondaghat - Kolhapur Rd, Survey Nagar, Kolhapur, Maharashtra 416001</p>
             </div>
           </div>
         </div>

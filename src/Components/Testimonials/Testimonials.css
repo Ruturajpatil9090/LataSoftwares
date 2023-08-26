@@ -64,7 +64,9 @@
     width: 300px;
   }
   .advanceFeature .Points .subPoint .test img{
-      width: 80px;
+      width: 100%;
+      height:250px;
+      border-radius: 50%;
       
   }
   
